@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 18
+  productGUID: a1b2c3d4e5f60718293a4b5c6d7e8f90
+  AndroidBundleVersionCode: 1
+  iOSBuildNumber: 1.0
+  companyName: CrabPrototype
+  productName: CrabGame-Prototipo
+  defaultIsFullScreen: 1
+  defaultScreenWidth: 1280
+  defaultScreenHeight: 720
+  runInBackground: 1
+  displayResolutionDialog: 1
+  mouseShouldLock: 1
