@@ -88,7 +88,7 @@ namespace CrabPrototype.Maps
             for (int i = 0; i < 12; i++)
             {
                 float a = i / 12f * Mathf.PI * 2;
-                var cone = GameObject.CreatePrimitive(PrimitiveType.Cone);
+                var cone = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
                 cone.transform.SetParent(mapRoot.transform);
                 cone.transform.position = new Vector3(Mathf.Cos(a) * (radius * 0.55f), 1.5f, Mathf.Sin(a) * (radius * 0.55f));
                 cone.transform.localScale = new Vector3(1.5f, 3f, 1.5f);

@@ -245,7 +245,6 @@ namespace CrabPrototype.Player
         System.Collections.IEnumerator RespawnRoutine()
         {
             // Desactivar control 3s
-            bool wasAlive = false;
             yield return new WaitForSeconds(3f);
             var gm = GameManager.Instance;
             if (gm == null) yield break;
